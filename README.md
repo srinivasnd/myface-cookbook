@@ -15,6 +15,11 @@ default.rb
 	-Creates a myface user
 	-Installs MySQL
 	- Creates MySQL schema, seeds schema with test data
+	- Installs Apache & Mod_PHP
+    - Installs the php-mysql library
+	- Disables Apache Default Website
+	- Configures Apache for Myface
+	- Deploys Myface
 
 # Author
 
