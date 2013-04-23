@@ -13,4 +13,5 @@ CREATE TABLE users(
 INSERT INTO users ( id, user_name, url, email, neck_beard ) VALUES ( uuid(), 'jtimberman', 'http://jtimberman.housepub.org', 'joshua@opscode.com', 4 );
 INSERT INTO users ( id, user_name, url, email, neck_beard ) VALUES ( uuid(), 'someara', 'http://blog.afistfulofservers.net/', 'someara@opscode.com', 5 );
 INSERT INTO users ( id, user_name, url, email, neck_beard ) VALUES ( uuid(), 'jwinsor', 'http://vialstudios.com', 'jamie@vialstudios.com', 4 );
-INSERT INTO users ( id, user_name, url, email, neck_beard ) VALUES ( uuid(), 'cjohnson', 'http://www.chipadeedoodah.com/', 'charles@opscode.com', 4 );
+INSERT INTO users ( id, user_name, url, email, neck_beard ) VALUES ( uuid(), 'cjohnson', 'http://www.chipadeedoodah.com/', 'charles@opscode.com', 3 );
+INSERT INTO users ( id, user_name, url, email, neck_beard ) VALUES ( uuid(), 'mbower', 'http://www.webbower.com/', 'matt@webbower.com', 4 );

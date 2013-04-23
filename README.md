@@ -12,9 +12,14 @@ None (yet)
 
 # Recipes
 default.rb
+	-Installs the full myface stack on a single node
+
+database.rb
 	-Creates a myface user
 	-Installs MySQL
 	- Creates MySQL schema, seeds schema with test data
+
+webserver.rb
 	- Installs Apache & Mod_PHP
     - Installs the php-mysql library
 	- Disables Apache Default Website
