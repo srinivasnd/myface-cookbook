@@ -27,7 +27,7 @@ describe 'myface::webserver' do
   # Verify that the myface apache config file has been enabled:
   it "configures apache for myface" do
     link("#{node['apache']['dir']}/sites-enabled/myface.conf").must_exist.with(
-        :link_type, :symbolic).and(:to, "#{node['apache']['dir']}/sites-available/myface.conf")
+      :link_type, :symbolic).and(:to, "#{node['apache']['dir']}/sites-available/myface.conf")
   end
 
   # Verify that the myface index file has been deployed with correct permissions:

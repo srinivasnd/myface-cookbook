@@ -12,9 +12,11 @@ include_recipe "mysql::server"
 include_recipe "mysql::ruby"
 
 # Create mysql connection binding
-mysql_connection_info = {:host => node['myface']['database']['host'],
-                         :username => node['myface']['database']['username'],
-                         :password => node['myface']['database']['password']}
+mysql_connection_info = {
+  :host => node['myface']['database']['host'],
+  :username => node['myface']['database']['username'],
+  :password => node['myface']['database']['password']
+}
 
 # Metadata dependency on the database cookbook provides
 # access to the mysql_database providers.

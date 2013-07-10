@@ -19,11 +19,11 @@ end
 template "#{node['apache']['dir']}/sites-available/myface.conf" do
   source "apache2.conf.erb"
   notifies :restart, 'service[apache2]'
-end 
+end
 
 apache_site "myface.conf" do
   enable true
-   notifies :restart, 'service[apache2]'
+  notifies :restart, 'service[apache2]'
 end
 
 directory "/srv/apache/myface" do
